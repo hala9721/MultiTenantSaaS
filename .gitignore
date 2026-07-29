@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Environment
+*.env
+appsettings.*.json
+!appsettings.json
+
+# Dependencies
+packages/
+.nuget/
+
+# Migrations (optional - لو ما تبي ترفعها)
+Migrations/
+
+# OS
+.DS_Store
+Thumbs.db
