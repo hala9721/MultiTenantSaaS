@@ -17,5 +17,9 @@ namespace MultiTenantSaaS.Domain.Entities
         // Relationships
         public Tenant Tenant { get; set; } = null!;
         public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+        public ICollection<ProjectMember> ProjectMembers { get; set; } = new List<ProjectMember>();
+        public ICollection<Task> AssignedTasks { get; set; } = new List<Task>();
+        public ICollection<Task> CreatedTasks { get; set; } = new List<Task>();
+        public ICollection<Project> CreatedProjects { get; set; } = new List<Project>();
     }
 }
