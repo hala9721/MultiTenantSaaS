@@ -11,6 +11,7 @@ namespace MultiTenantSaaS.Infrastructure.Repositories
         IUserRepository Users { get; }
         ITenantRepository Tenants { get; }
         IActivityLogRepository ActivityLogs { get; }
+        IProjectMemberRepository ProjectMembers { get; }
 
         Task<int> SaveChangesAsync();
     }

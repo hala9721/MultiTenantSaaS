@@ -3,9 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using MultiTenantSaaS.Application.Services;
 using MultiTenantSaaS.Infrastructure.Data;
-using MultiTenantSaaS.Infrastructure.Repositories;
 using System.Text;
-
+using MultiTenantSaaS.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
